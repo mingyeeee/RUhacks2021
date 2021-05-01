@@ -22,31 +22,36 @@ while(True):
     # Detect the markers in the image
     markerCorners, markerIds, rejectedCandidates = cv.aruco.detectMarkers(frame, dictionary, parameters=parameters)
 
-    
+    # if aruco marker is detected
     if(len(markerCorners) > 0):
         #print(markerCorners)
         print(len(markerIds))
         for i in range(len(markerIds)):
             
+            # populating the numpy array with point values
             for x in range(4):
                 arucoPoints[i][x][0] = int(markerCorners[i][0][x][0])
                 arucoPoints[i][x][1] = int(markerCorners[i][0][x][1])
+            # temporary variables for the purpose of convience 
             p1 = (arucoPoints[i][0][0], arucoPoints[i][0][1])
             p2 = (arucoPoints[i][1][0], arucoPoints[i][1][1])
             p3 = (arucoPoints[i][2][0], arucoPoints[i][2][1])
             p4 = (arucoPoints[i][3][0], arucoPoints[i][3][1])
             
+            # debug
             print(p1)
             print(p2)
             print(p3)
             print(p4)
             print('\n')
             
+            # drawing the lines
             frame = cv.line(frame,p1,p2,(255,0,0),5)
             frame = cv.line(frame,p2,p3,(255,0,0),5)
             frame = cv.line(frame,p3,p4,(255,0,0),5)
             frame = cv.line(frame,p4,p1,(255,0,0),5)
-
+            
+            # draw the ID on p1 
             id = str(int(markerIds[i]))
             frame = cv.putText(frame,id,p1, font, 1,(0,255,0),2,cv.LINE_AA)
             
