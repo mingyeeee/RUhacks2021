@@ -1,3 +1,7 @@
+# Runs inference on one image. This is just a test program
+# Requirements - TF 2.4.1
+# Change image file path on line 44
+
 import os
 import numpy as np
 
