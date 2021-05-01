@@ -1,5 +1,0 @@
-battery
-lightbulb
-switch_closed
-switch_open
-wire
