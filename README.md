@@ -10,6 +10,7 @@ A fun, interactive educational tool that projects virtual simulations of science
 Using only your camera, a printer, and paper!
 
 
+
 ## How does it work?
 
 - Draw a picture of the experiment you want to visualize on paper. 
@@ -17,7 +18,11 @@ Using only your camera, a printer, and paper!
 - A virtual 3D model of the experiment is rendered and animated 
 - The animation is projected onto your piece of paper
 
+
 ![](./computer-vision/img/how_to.png)
+
+
+![](./computer-vision/img/example.png)
 
 
 ## Backend
