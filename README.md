@@ -75,16 +75,15 @@ AugmentEd ────────computer-vision
    
 ```
 
-### Image Classification using MobileNetv2
-
-AugmentEd uses image classification to identify pictures and triggers `vision.py` which will then render the correct virtual simulation on the piece of paper.
-
 ### Computer Vision
 ```
 ./computer-vision/vision.py 
 ```
 
-AugmentEd is written exclusevely in python using the OpenCV libary
+AugmentEd is written exclusevely in python. `vision.py` starts by detecting the images on the piece of paper. The frame is analysed by the ML model.
+Once identified a simultaion is selected for the drawing provided. In order to render the animation corrrectly the aruco markers are identified, their coordinate are utilised to generate a geaometrical projection also knowin as homography.
+
+This process is founc in the `find_and_warp()` function imported from `aug_reality.py`
  
 #### ArUco Tracker
 
@@ -101,10 +100,12 @@ The markers are detected in `vision.py`:
 ```
 
 and depending on which simulation is identified by MobileNet an animation is rendered on the piece of paper. 
-To achive this we made use of projective geometry, in particular homography. A geometrical transformation that preserve the 
+To achive this we made use of projective geometry, in particular homography. A geametrical transformation that preserve the 
 
 #### Homography
 
 Homography is an isomorphism, i.e. a transformation of projective space, that allows us to project from a surface to the other by preserving its map. To achive this we have use
 
+### Image Classification using MobileNetv2
 
+AugmentEd uses image classification to identify pictures and triggers `vision.py` which will then render the correct virtual simulation on the piece of paper.
