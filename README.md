@@ -73,6 +73,14 @@ AugmentEd ────────computer-vision
 
    
 ```
+
+### Image Classification using MobileNetv2
+
+#### MobileNetV2
+
+ML was implemented in this project to classify simulations, by labelling them vision.py will render the simulation by detecting the arucoMarkers.
+
+
 ### Computer Vision
 
 
@@ -103,8 +111,4 @@ To achive this we made use of projective geometry, in particular homography.
 
 Homography is an isomorphism, i.e. a transformation of projective space, that allows us to project from a surface to the other. This can be implemented using python with OpenCV.
 
-### Machine Learning
 
-#### MobileNetV2
-
-ML was implemented in this project to classify simulations, by labelling them vision.py will render the simulation by detecting the arucoMarkers.
