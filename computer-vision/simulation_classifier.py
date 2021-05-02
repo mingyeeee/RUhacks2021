@@ -7,6 +7,8 @@ assert tf.__version__.startswith('2')
 from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.preprocessing.image import img_to_array
 
+import json
+import time 
 # define a class that load and preprocess one image
 def load_process_image(file_path):
 
@@ -32,7 +34,7 @@ def get_result(predictions):
   return np.where(predictions == np.amax(predictions))
 
 # load model
-model = tf.keras.models.load_model('sim mode\saved_model')
+model = tf.keras.models.load_model('sim model\saved_model')
 
 # Check its architecture
 model.summary()
@@ -58,11 +60,19 @@ while(True):
         for entry in os.listdir(inputpath):
             if os.path.isfile(os.path.join(inputpath, entry)):
                 image_file_path = "input_images\\{entry}".format(entry=entry)
-
+                
                 image_original, image_preprocessed = load_process_image(image_file_path)
                 os.remove(image_file_path)
                 predictions = model.predict(image_preprocessed)
                 # result = get_result(predictions[0])
                 print(predictions)
+                mostprobable = 0
+                for i in range(4):
+                    if predictions[0][i] < predictions[0][i+1]:
+                        mostprobable = i+1
+                print(mostprobable)
+                responseJson = {'class' : mostprobable}
+                with open('input_images\\response.json', 'w') as json_file:
+                    json.dump(responseJson, json_file)
         start_inference = False
 
