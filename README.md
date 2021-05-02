@@ -89,7 +89,7 @@ The markers hare detected using `vision.py` and depending on which simulation wa
 #### Homography
 
 
-### Machine Laarning
+### Machine Learning
 
 #### MobileNetV2
 
