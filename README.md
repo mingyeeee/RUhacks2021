@@ -10,7 +10,7 @@ With AugmentEd, our goal is to provide students, and institutions with an access
 
 A fun, interactive educational tool that projects virtual simulations of science experiments onto your sheet of paper using only your camera, a printer, and paper!
 
-AugmentEd is an educational tool that projects virtual simulations of science experiments right in front of you. All the user needs to do is draw a picture representing what type of experiment they want to visualize, and AugmentEd will project a simulation directly on the sheet of paper the picture is drawn on. This way, students will be able to visualize concepts such as tectonic plate movement or circuits right from the comfort of their home. The only materials required are a printer, camera, and paper!
+AugmentEd is an educational tool that projects virtual simulations of science experiments right in front of you. All the user needs to do is draw a picture representing what type of experiment they want to visualize, and AugmentEd will project a simulation directly on the sheet of paper the picture is drawn on. This will enable students to visualize concepts such as tectonic plate movement or circuits right from the comfort of their home. The only materials required are a printer, camera, and paper!
 
 
 
@@ -77,17 +77,14 @@ AugmentEd ────────computer-vision
 
 ### Image Classification using MobileNetv2
 
-
-AugmentEd uses image classification to identify picture and therefore understand which simulation to render.
-The model was implemented in this project to classify simulations, by labelling them vision.py will render the simulation by detecting the arucoMarkers.
-
+AugmentEd uses image classification to identify pictures and triggers `vision.py` which will then render the correct virtual simulation on the piece of paper.
 
 ### Computer Vision
-
-
 ```
 ./computer-vision/vision.py 
 ```
+
+AugmentEd is written exclusevely in python using OpenCV libary which 
  
 #### ArUco Tracker
 
