@@ -4,6 +4,12 @@
 
 With AugmentEd, our goal is to provide students, and institutions with an accessible, affordable, and interactive way of learning.
 
+## What is it?
+
+A fun, interactive educational tool that projects virtual simulations of science experiments onto your sheet of paper
+Using only your camera, a printer, and paper!
+
+
 ## How does it work?
 
 - Draw a picture of the experiment you want to visualize on paper. 
