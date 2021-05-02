@@ -25,6 +25,9 @@ Using only your camera, a printer, and paper!
 ![](./computer-vision/img/example.png)
 
 
+![](./computer-vision/img/simulation.png)
+
+
 ## Backend
 
 ```
