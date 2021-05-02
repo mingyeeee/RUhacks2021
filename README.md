@@ -100,7 +100,7 @@ The markers are detected in `vision.py`:
 ```
 
 and depending on which simulation is identified by MobileNet, an animation is rendered on the piece of paper. 
-To achieve this, we made use of projective geometry, in particular homography. A geometrical transformation that preserves the 
+To achieve this, we made use of projective geometry, in particular homography.  A geametrical transformation that preserve the structure of the source by ensuriing its map remainse unchanged.
 
 #### Homography
 
