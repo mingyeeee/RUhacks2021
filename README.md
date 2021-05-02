@@ -94,12 +94,15 @@ The markers are detected in `vision.py`:
 36      print("[INFO] accessing video stream...")
 ```
 
-and depending on which simulation is identified by MobileNet a real-time augmented reality simultaion is rendered on the surface 
+and depending on which simulation is identified by MobileNet a real-time augmented reality simultaion is rendered on the piece of paper. 
+To achive this we made use of projective geometry, in particular homography.
 
 
 
 #### Homography
 
+
+Homography is an isomorphism, i.e. a transformation of projective space or a map that allows us to move from a surface to the other.
 
 ### Machine Learning
 
