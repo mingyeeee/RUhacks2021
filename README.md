@@ -73,12 +73,10 @@ AugmentEd ────────computer-vision
 
    
 ```
+### Computer Vision
 
-### MobileNetV2
 
-ML was implemented in this project to classify simulations, by labelling them vision.py will render the simulation by detecting the arucoMarkers.
-
-### ArUco Tracker
+#### ArUco Tracker
 
 AugmentEd uses [ArUco Markers](https://docs.opencv.org/master/d5/dae/tutorial_aruco_detection.html) to find correspondence between the real environment coordinates and projection of science simulations. For this project we have used markers that can be generated using the `dictionary = cv.aruco.Dictionary_get(cv.aruco.DICT_4X4_50)`
 
@@ -88,4 +86,11 @@ The markers hare detected using `vision.py` and depending on which simulation wa
 
 
 
-### Homography
+#### Homography
+
+
+### Machine Laarning
+
+#### MobileNetV2
+
+ML was implemented in this project to classify simulations, by labelling them vision.py will render the simulation by detecting the arucoMarkers.
