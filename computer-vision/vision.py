@@ -9,16 +9,14 @@ import cv2
 
 import os
 
+import json
+
 # List of simulation videos
 plant_vid = "./videos/plantcell.mov"
 animal_vid ="./videos/animalcell.mov"
-earth_vid = ""
+earth_vid = "./videos/earthquake.mov"
+circuit_vid = "./videos/switch.mp4"
 chemistry_vid = "./videos/Presentation1.mov"
-
-# List of splash screens
-plant_screen = "./splashscreens/plant.png"
-animal_screen = "./splashscreens/animal.png"
-chemistry_screen = "./splashscreens/N2O4.png"
 
 CACHED_REF_PTS = None
 #if statments while loop for each 
@@ -75,6 +73,9 @@ while(not response):
     for entry in os.listdir(inputpath):
         if os.path.isfile(os.path.join(inputpath, entry)):
             if(entry == 'response.json'):
+                with open('input_images\\response.json') as f:
+                    data = json.load(f)
+
                 os.remove("input_images\\response.json")
                 response = True
     # Although theoretically unnecessary, the code breaks without :')
@@ -89,7 +90,7 @@ while(not response):
 if args["type"] == 1: 
     #standard
     # Change this
-    video_path = animal_vid
+    video_path = circuit_vid
     
     vf = cv2.VideoCapture(video_path)
     Q = deque(maxlen=128)
@@ -100,8 +101,11 @@ if args["type"] == 1:
     while len(Q) > 0:
         frame = vs.read()
         # Change this
-        cv2.putText(frame,"Animal cell microscope",(130,50), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
-        cv2.putText(frame,"simulation",(220,80), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
+        #cv2.putText(frame,"Animal cell microscope",(130,50), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
+        #cv2.putText(frame,"simulation",(220,80), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
+        cv2.putText(frame,"Circuit Simulation",(160,50), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
+        cv2.putText(frame,"Move the paper to turn on the light",(40,80), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
+
         #frame = imutils.resize(frame, width=1000) #resize
         warped = find_and_warp(frame, source, cornerIDs=(1, 2, 3, 0), arucoDict=arucoDict, arucoParams=arucoParams, useCache=args["cache"] > 0)
         if warped is not None:
@@ -122,7 +126,7 @@ elif args["type"] == 2:
        
     # loop over the frames from the video stream
     # Change this
-    video_path = chemistry_vid
+    video_path = earth_vid
 
     vf = cv2.VideoCapture(video_path)
     Q = deque(maxlen=128)
@@ -136,8 +140,9 @@ elif args["type"] == 2:
         if(time() - initialT > 5):
             #print("Enough energy has been added to the system!")
             # Change this
-            cv2.putText(frame,"Enough energy has been ",(110,50), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
-            cv2.putText(frame,"added to the system!",(130,80), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
+            #cv2.putText(frame,"Enough energy has been ",(110,50), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
+            #cv2.putText(frame,"added to the system!",(130,80), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
+            cv2.putText(frame,"Tectonic plates are shifting!",(80,50), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
             #frame = imutils.resize(frame, width=1000) #resize
             warped = find_and_warp(frame, source, cornerIDs=(1, 2, 3, 0), arucoDict=arucoDict, arucoParams=arucoParams, useCache=args["cache"] > 0)
             if warped is not None:
@@ -151,28 +156,26 @@ elif args["type"] == 2:
         else:
             #print("Shake the paper to add energy to the system!") 
             # Change this
+            """
             cv2.putText(frame,"Shake the paper to add energy!",(70,80), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
             cv2.putText(frame,"N2O4 and NO2 equilibrium simulation",(24,190), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
             cv2.putText(frame,"Formation of N2O4 gas",(55,220), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,0,0),2,cv2.LINE_AA)
+            """
+            cv2.putText(frame,"Shake the paper to",(140,200), cv2.FONT_HERSHEY_SIMPLEX, 1,(0,255,0),2,cv2.LINE_AA)
+            cv2.putText(frame,"start the earthquake!",(130,230), cv2.FONT_HERSHEY_SIMPLEX, 1,(0,255,0),2,cv2.LINE_AA)
         cv2.imshow("Frame", frame)
         key = cv2.waitKey(1) & 0xFF
         if key == ord("q"):
             break
     cv2.destroyAllWindows()
     vs.stop()
-elif args["type"] == 3: 
-    # imgOn = "./img/oncircuit.png"
-    # imgOff = "./img/offcircuit.png"
+elif args["type"] == 3:  
+    video_path = "./videos/switch.mp4"
 
-    # onSrc  = cv2.imread(imgOn)
-    # offSrc  = cv2.imread(imgOff)
-    video_path = "./videos/Presentation1.mov"
-    vf = cv2.VideoCapture(video_path)
+    vf = cv2.VideoCapture(video_path) #same length
     Q = deque(maxlen=128)
     (grabbed, source) = vf.read()
     Q.appendleft(source)
-
-    time.sleep(2.0)
     # loop over the frames from the video stream
     while len(Q) > 0:
         frame = vs.read()
