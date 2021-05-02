@@ -86,7 +86,15 @@ AugmentEd uses [ArUco Markers](https://docs.opencv.org/master/d5/dae/tutorial_ar
 
 ![](./computer-vision/img/aruco_markers.png)
 
-The markers are detected using `vision.py` and depending on which simulation is identified by MobileNet a real-time augmented reality simultaion is rendered on the surface 
+The markers are detected in `vision.py`:
+```
+33      print("[INFO] initializing marker detector...")
+34      arucoDict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_4X4_50)
+35      arucoParams = cv2.aruco.DetectorParameters_create()
+36      print("[INFO] accessing video stream...")
+```
+
+and depending on which simulation is identified by MobileNet a real-time augmented reality simultaion is rendered on the surface 
 
 
 
