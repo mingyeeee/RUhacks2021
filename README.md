@@ -2,7 +2,7 @@
 
 ![AugmentEd](./computer-vision/img/logo-removebg-preview.jpg)
 
-With AugmentEd, our goal is to provide students, and institutions with an accessible, affordable, and interactive way of learning.
+With AugmentEd, our goal is to provide students, and institutions with an accessible, affordable, and interactive way of learning. [Video demo here](https://youtu.be/hXH4LOHEFIQ)
 
 ![](./computer-vision/img/animation.png)
 
