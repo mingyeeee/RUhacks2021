@@ -52,4 +52,7 @@ AugmentEd ────────computer-vision
 
 ### ArUco Tracker
 
+AugmentEd makes use of [ArUco Markers](https://docs.opencv.org/master/d5/dae/tutorial_aruco_detection.html)
+
+
 ### Homography
