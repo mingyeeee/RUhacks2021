@@ -1,0 +1,1729 @@
+[INFO] initializing marker detector...
+[INFO] accessing video stream...
+[INFO] starting video stream...
+TEST START
+[array([[[116., 618.],
+        [ 52., 619.],
+        [ 58., 543.],
+        [119., 540.]]], dtype=float32), array([[[563., 610.],
+        [562., 531.],
+        [638., 530.],
+        [639., 605.]]], dtype=float32), array([[[136., 239.],
+        [141., 310.],
+        [ 75., 314.],
+        [ 68., 244.]]], dtype=float32), array([[[558., 220.],
+        [630., 219.],
+        [632., 291.],
+        [559., 292.]]], dtype=float32)]
+TEST DONE
+4
+(116, 618)
+(52, 619)
+(58, 543)
+(119, 540)
+
+
+(563, 610)
+(562, 531)
+(638, 530)
+(639, 605)
+
+
+(136, 239)
+(141, 310)
+(75, 314)
+(68, 244)
+
+
+(558, 220)
+(630, 219)
+(632, 291)
+(559, 292)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220)]
+difference
+422
+TEST START
+[array([[[116., 618.],
+        [ 52., 619.],
+        [ 58., 543.],
+        [119., 540.]]], dtype=float32), array([[[563., 610.],
+        [562., 531.],
+        [638., 530.],
+        [639., 605.]]], dtype=float32), array([[[136., 239.],
+        [141., 310.],
+        [ 75., 314.],
+        [ 68., 244.]]], dtype=float32), array([[[558., 220.],
+        [630., 219.],
+        [632., 291.],
+        [559., 292.]]], dtype=float32)]
+TEST DONE
+4
+(116, 618)
+(52, 619)
+(58, 543)
+(119, 540)
+
+
+(563, 610)
+(562, 531)
+(638, 530)
+(639, 605)
+
+
+(136, 239)
+(141, 310)
+(75, 314)
+(68, 244)
+
+
+(558, 220)
+(630, 219)
+(632, 291)
+(559, 292)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220)]
+difference
+422
+TEST START
+[array([[[116., 618.],
+        [ 52., 619.],
+        [ 58., 543.],
+        [119., 540.]]], dtype=float32), array([[[563., 610.],
+        [562., 531.],
+        [638., 530.],
+        [639., 605.]]], dtype=float32), array([[[136., 239.],
+        [141., 310.],
+        [ 75., 314.],
+        [ 68., 244.]]], dtype=float32), array([[[558., 220.],
+        [630., 219.],
+        [632., 291.],
+        [559., 292.]]], dtype=float32)]
+TEST DONE
+4
+(116, 618)
+(52, 619)
+(58, 543)
+(119, 540)
+
+
+(563, 610)
+(562, 531)
+(638, 530)
+(639, 605)
+
+
+(136, 239)
+(141, 310)
+(75, 314)
+(68, 244)
+
+
+(558, 220)
+(630, 219)
+(632, 291)
+(559, 292)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220)]
+difference
+422
+TEST START
+[array([[[118., 616.],
+        [ 53., 618.],
+        [ 60., 542.],
+        [121., 539.]]], dtype=float32), array([[[564., 611.],
+        [563., 531.],
+        [639., 531.],
+        [640., 607.]]], dtype=float32), array([[[139., 239.],
+        [144., 310.],
+        [ 77., 313.],
+        [ 72., 243.]]], dtype=float32), array([[[559., 222.],
+        [632., 220.],
+        [634., 291.],
+        [561., 293.]]], dtype=float32)]
+TEST DONE
+4
+(118, 616)
+(53, 618)
+(60, 542)
+(121, 539)
+
+
+(564, 611)
+(563, 531)
+(639, 531)
+(640, 607)
+
+
+(139, 239)
+(144, 310)
+(77, 313)
+(72, 243)
+
+
+(559, 222)
+(632, 220)
+(634, 291)
+(561, 293)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (118, 616), (564, 611), (139, 239), (559, 222)]
+difference
+420
+TEST START
+[array([[[118., 616.],
+        [ 53., 618.],
+        [ 60., 542.],
+        [121., 539.]]], dtype=float32), array([[[564., 611.],
+        [563., 531.],
+        [639., 531.],
+        [640., 607.]]], dtype=float32), array([[[139., 239.],
+        [144., 310.],
+        [ 77., 313.],
+        [ 72., 243.]]], dtype=float32), array([[[559., 222.],
+        [632., 220.],
+        [634., 291.],
+        [561., 293.]]], dtype=float32)]
+TEST DONE
+4
+(118, 616)
+(53, 618)
+(60, 542)
+(121, 539)
+
+
+(564, 611)
+(563, 531)
+(639, 531)
+(640, 607)
+
+
+(139, 239)
+(144, 310)
+(77, 313)
+(72, 243)
+
+
+(559, 222)
+(632, 220)
+(634, 291)
+(561, 293)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (118, 616), (564, 611), (139, 239), (559, 222), (118, 616), (564, 611), (139, 239), (559, 222)]
+difference
+420
+TEST START
+[array([[[119., 616.],
+        [ 55., 616.],
+        [ 61., 541.],
+        [122., 538.]]], dtype=float32), array([[[566., 612.],
+        [564., 533.],
+        [641., 533.],
+        [641., 608.]]], dtype=float32), array([[[141., 238.],
+        [146., 309.],
+        [ 81., 313.],
+        [ 74., 243.]]], dtype=float32), array([[[562., 222.],
+        [635., 222.],
+        [636., 293.],
+        [563., 294.]]], dtype=float32)]
+TEST DONE
+4
+(119, 616)
+(55, 616)
+(61, 541)
+(122, 538)
+
+
+(566, 612)
+(564, 533)
+(641, 533)
+(641, 608)
+
+
+(141, 238)
+(146, 309)
+(81, 313)
+(74, 243)
+
+
+(562, 222)
+(635, 222)
+(636, 293)
+(563, 294)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (118, 616), (564, 611), (139, 239), (559, 222), (118, 616), (564, 611), (139, 239), (559, 222), (119, 616), (566, 612), (141, 238), (562, 222)]
+difference
+421
+TEST START
+[array([[[119., 616.],
+        [ 55., 616.],
+        [ 61., 541.],
+        [122., 538.]]], dtype=float32), array([[[566., 612.],
+        [564., 533.],
+        [641., 533.],
+        [641., 608.]]], dtype=float32), array([[[141., 238.],
+        [146., 309.],
+        [ 81., 313.],
+        [ 74., 243.]]], dtype=float32), array([[[562., 222.],
+        [635., 222.],
+        [636., 293.],
+        [563., 294.]]], dtype=float32)]
+TEST DONE
+4
+(119, 616)
+(55, 616)
+(61, 541)
+(122, 538)
+
+
+(566, 612)
+(564, 533)
+(641, 533)
+(641, 608)
+
+
+(141, 238)
+(146, 309)
+(81, 313)
+(74, 243)
+
+
+(562, 222)
+(635, 222)
+(636, 293)
+(563, 294)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (118, 616), (564, 611), (139, 239), (559, 222), (118, 616), (564, 611), (139, 239), (559, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222)]
+difference
+421
+TEST START
+[array([[[119., 616.],
+        [ 55., 616.],
+        [ 61., 541.],
+        [122., 538.]]], dtype=float32), array([[[566., 612.],
+        [564., 533.],
+        [641., 533.],
+        [641., 608.]]], dtype=float32), array([[[141., 238.],
+        [146., 309.],
+        [ 81., 313.],
+        [ 74., 243.]]], dtype=float32), array([[[562., 222.],
+        [635., 222.],
+        [636., 293.],
+        [563., 294.]]], dtype=float32)]
+TEST DONE
+4
+(119, 616)
+(55, 616)
+(61, 541)
+(122, 538)
+
+
+(566, 612)
+(564, 533)
+(641, 533)
+(641, 608)
+
+
+(141, 238)
+(146, 309)
+(81, 313)
+(74, 243)
+
+
+(562, 222)
+(635, 222)
+(636, 293)
+(563, 294)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (118, 616), (564, 611), (139, 239), (559, 222), (118, 616), (564, 611), (139, 239), (559, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222)]
+difference
+421
+TEST START
+[array([[[121., 614.],
+        [ 56., 615.],
+        [ 63., 539.],
+        [124., 537.]]], dtype=float32), array([[[566., 613.],
+        [566., 533.],
+        [643., 536.],
+        [642., 610.]]], dtype=float32), array([[[144., 237.],
+        [149., 308.],
+        [ 82., 311.],
+        [ 77., 241.]]], dtype=float32), array([[[564., 223.],
+        [637., 223.],
+        [638., 294.],
+        [564., 294.]]], dtype=float32)]
+TEST DONE
+4
+(121, 614)
+(56, 615)
+(63, 539)
+(124, 537)
+
+
+(566, 613)
+(566, 533)
+(643, 536)
+(642, 610)
+
+
+(144, 237)
+(149, 308)
+(82, 311)
+(77, 241)
+
+
+(564, 223)
+(637, 223)
+(638, 294)
+(564, 294)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (118, 616), (564, 611), (139, 239), (559, 222), (118, 616), (564, 611), (139, 239), (559, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (121, 614), (566, 613), (144, 237), (564, 223)]
+difference
+420
+TEST START
+[array([[[121., 614.],
+        [ 56., 615.],
+        [ 63., 539.],
+        [124., 537.]]], dtype=float32), array([[[566., 613.],
+        [566., 533.],
+        [643., 536.],
+        [642., 610.]]], dtype=float32), array([[[144., 237.],
+        [149., 308.],
+        [ 82., 311.],
+        [ 77., 241.]]], dtype=float32), array([[[564., 223.],
+        [637., 223.],
+        [638., 294.],
+        [564., 294.]]], dtype=float32)]
+TEST DONE
+4
+(121, 614)
+(56, 615)
+(63, 539)
+(124, 537)
+
+
+(566, 613)
+(566, 533)
+(643, 536)
+(642, 610)
+
+
+(144, 237)
+(149, 308)
+(82, 311)
+(77, 241)
+
+
+(564, 223)
+(637, 223)
+(638, 294)
+(564, 294)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (118, 616), (564, 611), (139, 239), (559, 222), (118, 616), (564, 611), (139, 239), (559, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (121, 614), (566, 613), (144, 237), (564, 223), (121, 614), (566, 613), (144, 237), (564, 223)]
+difference
+420
+TEST START
+[array([[[121., 614.],
+        [ 56., 615.],
+        [ 63., 539.],
+        [124., 537.]]], dtype=float32), array([[[566., 613.],
+        [566., 533.],
+        [643., 536.],
+        [642., 610.]]], dtype=float32), array([[[144., 237.],
+        [149., 308.],
+        [ 82., 311.],
+        [ 77., 241.]]], dtype=float32), array([[[564., 223.],
+        [637., 223.],
+        [638., 294.],
+        [564., 294.]]], dtype=float32)]
+TEST DONE
+4
+(121, 614)
+(56, 615)
+(63, 539)
+(124, 537)
+
+
+(566, 613)
+(566, 533)
+(643, 536)
+(642, 610)
+
+
+(144, 237)
+(149, 308)
+(82, 311)
+(77, 241)
+
+
+(564, 223)
+(637, 223)
+(638, 294)
+(564, 294)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (118, 616), (564, 611), (139, 239), (559, 222), (118, 616), (564, 611), (139, 239), (559, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (121, 614), (566, 613), (144, 237), (564, 223), (121, 614), (566, 613), (144, 237), (564, 223), (121, 614), (566, 613), (144, 237), (564, 223)]
+difference
+420
+TEST START
+[array([[[122., 614.],
+        [ 59., 614.],
+        [ 66., 539.],
+        [127., 537.]]], dtype=float32), array([[[567., 613.],
+        [568., 534.],
+        [644., 536.],
+        [644., 611.]]], dtype=float32), array([[[147., 237.],
+        [152., 307.],
+        [ 86., 311.],
+        [ 80., 241.]]], dtype=float32), array([[[567., 224.],
+        [640., 223.],
+        [641., 295.],
+        [567., 296.]]], dtype=float32)]
+TEST DONE
+4
+(122, 614)
+(59, 614)
+(66, 539)
+(127, 537)
+
+
+(567, 613)
+(568, 534)
+(644, 536)
+(644, 611)
+
+
+(147, 237)
+(152, 307)
+(86, 311)
+(80, 241)
+
+
+(567, 224)
+(640, 223)
+(641, 295)
+(567, 296)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (118, 616), (564, 611), (139, 239), (559, 222), (118, 616), (564, 611), (139, 239), (559, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (121, 614), (566, 613), (144, 237), (564, 223), (121, 614), (566, 613), (144, 237), (564, 223), (121, 614), (566, 613), (144, 237), (564, 223), (122, 614), (567, 613), (147, 237), (567, 224)]
+difference
+420
+TEST START
+[array([[[122., 614.],
+        [ 59., 614.],
+        [ 66., 539.],
+        [127., 537.]]], dtype=float32), array([[[567., 613.],
+        [568., 534.],
+        [644., 536.],
+        [644., 611.]]], dtype=float32), array([[[147., 237.],
+        [152., 307.],
+        [ 86., 311.],
+        [ 80., 241.]]], dtype=float32), array([[[567., 224.],
+        [640., 223.],
+        [641., 295.],
+        [567., 296.]]], dtype=float32)]
+TEST DONE
+4
+(122, 614)
+(59, 614)
+(66, 539)
+(127, 537)
+
+
+(567, 613)
+(568, 534)
+(644, 536)
+(644, 611)
+
+
+(147, 237)
+(152, 307)
+(86, 311)
+(80, 241)
+
+
+(567, 224)
+(640, 223)
+(641, 295)
+(567, 296)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (118, 616), (564, 611), (139, 239), (559, 222), (118, 616), (564, 611), (139, 239), (559, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (121, 614), (566, 613), (144, 237), (564, 223), (121, 614), (566, 613), (144, 237), (564, 223), (121, 614), (566, 613), (144, 237), (564, 223), (122, 614), (567, 613), (147, 237), (567, 224), (122, 614), (567, 613), (147, 237), (567, 224)]
+difference
+420
+TEST START
+[array([[[122., 614.],
+        [ 59., 614.],
+        [ 66., 539.],
+        [127., 537.]]], dtype=float32), array([[[567., 613.],
+        [568., 534.],
+        [644., 536.],
+        [644., 611.]]], dtype=float32), array([[[147., 237.],
+        [152., 307.],
+        [ 86., 311.],
+        [ 80., 241.]]], dtype=float32), array([[[567., 224.],
+        [640., 223.],
+        [641., 295.],
+        [567., 296.]]], dtype=float32)]
+TEST DONE
+4
+(122, 614)
+(59, 614)
+(66, 539)
+(127, 537)
+
+
+(567, 613)
+(568, 534)
+(644, 536)
+(644, 611)
+
+
+(147, 237)
+(152, 307)
+(86, 311)
+(80, 241)
+
+
+(567, 224)
+(640, 223)
+(641, 295)
+(567, 296)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (118, 616), (564, 611), (139, 239), (559, 222), (118, 616), (564, 611), (139, 239), (559, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (121, 614), (566, 613), (144, 237), (564, 223), (121, 614), (566, 613), (144, 237), (564, 223), (121, 614), (566, 613), (144, 237), (564, 223), (122, 614), (567, 613), (147, 237), (567, 224), (122, 614), (567, 613), (147, 237), (567, 224), (122, 614), (567, 613), (147, 237), (567, 224)]
+difference
+420
+TEST START
+[array([[[570., 225.],
+        [644., 225.],
+        [644., 296.],
+        [570., 296.]]], dtype=float32), array([[[570., 615.],
+        [570., 536.],
+        [647., 537.],
+        [647., 613.]]], dtype=float32), array([[[126., 613.],
+        [ 61., 613.],
+        [ 69., 539.],
+        [130., 536.]]], dtype=float32), array([[[151., 238.],
+        [155., 308.],
+        [ 89., 311.],
+        [ 83., 241.]]], dtype=float32)]
+TEST DONE
+4
+(570, 225)
+(644, 225)
+(644, 296)
+(570, 296)
+
+
+(570, 615)
+(570, 536)
+(647, 537)
+(647, 613)
+
+
+(126, 613)
+(61, 613)
+(69, 539)
+(130, 536)
+
+
+(151, 238)
+(155, 308)
+(89, 311)
+(83, 241)
+
+
+[(116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (116, 618), (563, 610), (136, 239), (558, 220), (118, 616), (564, 611), (139, 239), (559, 222), (118, 616), (564, 611), (139, 239), (559, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (119, 616), (566, 612), (141, 238), (562, 222), (121, 614), (566, 613), (144, 237), (564, 223), (121, 614), (566, 613), (144, 237), (564, 223), (121, 614), (566, 613), (144, 237), (564, 223), (122, 614), (567, 613), (147, 237), (567, 224), (122, 614), (567, 613), (147, 237), (567, 224), (122, 614), (567, 613), (147, 237), (567, 224), (570, 225), (570, 615), (126, 613), (151, 238)]
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
+25
+difference
