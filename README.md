@@ -2,6 +2,15 @@
 
 ![AugmentEd](./computer-vision/img/logo.png)
 
+## How to Use AugmentedEd
+
+- Draw a picture of the experiment you want to visualize on paper. 
+- A pre-trained machine learning model identifiess the drawing based on a trained MobileNetv2 Network
+- A virtual 3D model of the experiment is renedered and animated 
+- The animation is projected onto your piece of paper
+
+![](./computer-vision/img/how_to.png)
+
 ## Project Structure 
 
 ```
