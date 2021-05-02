@@ -2,9 +2,9 @@
 
 ![AugmentEd](./computer-vision/img/logo-removebg-preview.jpg)
 
-## How does it work?
+With AugmentEd, our goal is to provide students, and institutions with an accessible, affordable, and interactive way of learning.
 
- 
+## How does it work?
 
 - Draw a picture of the experiment you want to visualize on paper. 
 - A pre-trained machine learning model identifiess the drawing based on a trained MobileNetv2 Network
