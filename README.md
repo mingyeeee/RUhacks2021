@@ -87,7 +87,7 @@ This process is found in the `find_and_warp()` function imported from `aug_reali
  
 #### Aruco Tracker
 
-AugmentEd uses [ArUco Markers](https://docs.opencv.org/master/d5/dae/tutorial_aruco_detection.html) to identify the correspondence between the real environment coordinates and projection of science simulations (or experiments). For this project arUco markers were generated via `dictionary = cv.aruco.Dictionary_get(cv.aruco.DICT_4X4_50)` 
+AugmentEd uses [Aruco Markers](https://docs.opencv.org/master/d5/dae/tutorial_aruco_detection.html) to identify the correspondence between the real environment coordinates and projection of science simulations (or experiments). For this project aruco markers were generated via `dictionary = cv.aruco.Dictionary_get(cv.aruco.DICT_4X4_50)` 
 
 ![](./computer-vision/img/aruco_markers.png)
 
@@ -99,8 +99,8 @@ The markers are detected in `vision.py`:
 36      print("[INFO] accessing video stream...")
 ```
 
-and depending on which simulation is identified by MobileNet an animation is rendered on the piece of paper. 
-To achive this we made use of projective geometry, in particular homography. A geametrical transformation that preserve the 
+and depending on which simulation is identified by MobileNet, an animation is rendered on the piece of paper. 
+To achieve this, we made use of projective geometry, in particular homography. A geometrical transformation that preserves the 
 
 #### Homography
 
