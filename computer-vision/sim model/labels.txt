@@ -1,0 +1,5 @@
+Animal
+Nitrogen_Dioxide
+Plant
+circuit
+earth
