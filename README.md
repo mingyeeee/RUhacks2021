@@ -19,7 +19,7 @@ Using only your camera, a printer, and paper!
 - The animation is projected onto your piece of paper
 
 
-![](./computer-vision/img/how_to.png)
+![](./computer-vision/img/signup_2.png)
 
 
 ![](./computer-vision/img/example.png)
