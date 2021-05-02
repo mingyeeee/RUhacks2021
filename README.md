@@ -75,8 +75,7 @@ AugmentEd ────────computer-vision
 
 ### Image Classification using MobileNetv2
 
-#### MobileNetV2
-
+We have used im
 ML was implemented in this project to classify simulations, by labelling them vision.py will render the simulation by detecting the arucoMarkers.
 
 
@@ -86,7 +85,7 @@ ML was implemented in this project to classify simulations, by labelling them vi
 ```
 ./computer-vision/vision.py 
 ```
-
+ 
 #### ArUco Tracker
 
 AugmentEd uses [ArUco Markers](https://docs.opencv.org/master/d5/dae/tutorial_aruco_detection.html) to identify the correspondence between the real environment coordinates and projection of science simulations (or experiments). For this project arUco markers were generated via `dictionary = cv.aruco.Dictionary_get(cv.aruco.DICT_4X4_50)` 
@@ -101,13 +100,11 @@ The markers are detected in `vision.py`:
 36      print("[INFO] accessing video stream...")
 ```
 
-and depending on which simulation is identified by MobileNet a real-time augmented reality simultaion is rendered on the piece of paper. 
-To achive this we made use of projective geometry, in particular homography.
-
-
+and depending on which simulation is identified by MobileNet an animation is rendered on the piece of paper. 
+To achive this we made use of projective geometry, in particular homography. A geametrical transformation that preserve the 
 
 #### Homography
 
-Homography is an isomorphism, i.e. a transformation of projective space, that allows us to project from a surface to the other. This can be implemented using python with OpenCV.
+Homography is an isomorphism, i.e. a transformation of projective space, that allows us to project from a surface to the other by preserving its map. To achive this we have use
 
 
