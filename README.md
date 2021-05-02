@@ -101,8 +101,7 @@ To achive this we made use of projective geometry, in particular homography.
 
 #### Homography
 
-
-Homography is an isomorphism, i.e. a transformation of projective space or a map that allows us to move from a surface to the other.
+Homography is an isomorphism, i.e. a transformation of projective space, that allows us to project from a surface to the other. This can be implemented using python with OpenCV.
 
 ### Machine Learning
 
