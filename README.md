@@ -81,7 +81,7 @@ AugmentEd ────────computer-vision
 ```
 
 AugmentEd is written exclusevely in python using the OpenCV library. `vision.py` starts by detecting the images on the piece of paper. The frame is analysed by the ML model.
-Once identified a simultaion is selected for the drawing provided. In order to render the animation corrrectly the aruco markers are identified, their coordinate are utilised to generate a geaometrical projection also knowin as homography.
+Once identified a simultaion is selected for the drawing provided. In order to render the animation corrrectly the aruco markers are identified, their coordinates are utilised to generate a geaometrical projection also knowin as homography.
 
 This process is founc in the `find_and_warp()` function imported from `aug_reality.py`
  
