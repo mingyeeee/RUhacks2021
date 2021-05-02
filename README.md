@@ -1,6 +1,6 @@
 
 
-![AugmentEd](./computer-vision/img/logo.png)
+![AugmentEd](./computer-vision/img/logo-removebg-preview.jpg)
 
 ## How does it work?
 
