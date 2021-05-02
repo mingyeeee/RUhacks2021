@@ -17,7 +17,7 @@ Using only your camera, a printer, and paper!
 - A virtual 3D model of the experiment is rendered and animated 
 - The animation is projected onto your piece of paper
 
-![](./computer-vision/img/how_to-removebg.jpg)
+![](./computer-vision/img/how_to.png)
 
 
 ## Backend
