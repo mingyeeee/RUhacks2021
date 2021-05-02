@@ -13,7 +13,8 @@ With AugmentEd, our goal is to provide students, and institutions with an access
 
 ![](./computer-vision/img/how_to.png)
 
-## Project Structure 
+
+## Backend
 
 ```
 AugmentEd ────────computer-vision
