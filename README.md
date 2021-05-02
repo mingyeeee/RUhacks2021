@@ -77,8 +77,9 @@ AugmentEd ────────computer-vision
 
 ### Image Classification using MobileNetv2
 
-We have used im
-ML was implemented in this project to classify simulations, by labelling them vision.py will render the simulation by detecting the arucoMarkers.
+
+AugmentEd uses image classification to identify picture and therefore understand which simulation to render.
+The model was implemented in this project to classify simulations, by labelling them vision.py will render the simulation by detecting the arucoMarkers.
 
 
 ### Computer Vision
