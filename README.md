@@ -84,7 +84,7 @@ AugmentEd uses image classification to identify pictures and triggers `vision.py
 ./computer-vision/vision.py 
 ```
 
-AugmentEd is written exclusevely in python using OpenCV libary which 
+AugmentEd is written exclusevely in python using the OpenCV libary
  
 #### ArUco Tracker
 
@@ -101,7 +101,7 @@ The markers are detected in `vision.py`:
 ```
 
 and depending on which simulation is identified by MobileNet an animation is rendered on the piece of paper. 
-To achive this we made use of projective geometry, in particular homography. A geametrical transformation that preserve the 
+To achive this we made use of projective geometry, in particular homography. A geometrical transformation that preserve the 
 
 #### Homography
 
