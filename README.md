@@ -110,7 +110,9 @@ Homography is an isomorphism, i.e. a transformation of projective space, that al
 
 AugmentEd uses image classification to identify pictures and triggers `vision.py` which will then render the correct virtual simulation on the piece of paper.
 
+``` Results of the trained model ```
 ![](https://user-images.githubusercontent.com/11446741/116830226-a4cae280-ab5d-11eb-914e-9f2e2e86face.png)
+``` Pre-processing images to be identified ```
 ![](https://user-images.githubusercontent.com/11446741/116830236-b613ef00-ab5d-11eb-8834-3a94abe6bbe2.png)
 
 
