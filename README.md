@@ -81,11 +81,11 @@ AugmentEd ────────computer-vision
 ```
 
 AugmentEd is written exclusively in python using the OpenCV library. `vision.py` starts by detecting the images on the piece of paper. The frame is analysed by the ML model.
-Once identified, a simulation is selected for the drawing provided. In order to render the animation corrrectly the aruco markers are identified, their coordinates are utilised to generate a geaometrical projection also knowin as homography.
+Once identified, a simulation is selected for the drawing provided. In order to render the animation corrrectly, the aruco markers are identified, and their coordinates are utilised to generate a geometrical projection also known as homography.
 
 This process is found in the `find_and_warp()` function imported from `aug_reality.py`
  
-#### ArUco Tracker
+#### Aruco Tracker
 
 AugmentEd uses [ArUco Markers](https://docs.opencv.org/master/d5/dae/tutorial_aruco_detection.html) to identify the correspondence between the real environment coordinates and projection of science simulations (or experiments). For this project arUco markers were generated via `dictionary = cv.aruco.Dictionary_get(cv.aruco.DICT_4X4_50)` 
 
