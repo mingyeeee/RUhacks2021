@@ -108,7 +108,7 @@ Homography is an isomorphism, i.e. a transformation of projective space, that al
 
 ### Image Classification using MobileNetv2
 
-AugmentEd uses image classification to identify pictures and triggers `vision.py` which will then render the correct virtual simulation on the piece of paper.
+AugmentEd uses image classification to identify pictures and triggers `vision.py` that will then render the correct virtual simulation on the piece of paper.
 
 ``` Results of the trained model ```
 ![](https://user-images.githubusercontent.com/11446741/116830226-a4cae280-ab5d-11eb-914e-9f2e2e86face.png)
