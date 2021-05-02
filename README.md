@@ -4,7 +4,7 @@
 
 With AugmentEd, our goal is to provide students, and institutions with an accessible, affordable, and interactive way of learning.
 
-## What is it?
+## What is AugmentedEd?
 
 A fun, interactive educational tool that projects virtual simulations of science experiments onto your sheet of paper
 Using only your camera, a printer, and paper!
