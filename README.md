@@ -76,9 +76,13 @@ AugmentEd ────────computer-vision
 ### Computer Vision
 
 
+```
+./computer-vision/vision.py 
+```
+
 #### ArUco Tracker
 
-AugmentEd uses [ArUco Markers](https://docs.opencv.org/master/d5/dae/tutorial_aruco_detection.html) to find correspondence between the real environment coordinates and projection of science simulations. For this project we have used markers that can be generated using the `dictionary = cv.aruco.Dictionary_get(cv.aruco.DICT_4X4_50)`
+AugmentEd uses [ArUco Markers](https://docs.opencv.org/master/d5/dae/tutorial_aruco_detection.html) to identify the correspondence between the real environment coordinates and projection of science simulations (or experiments). For this project arUco markers were generated via `dictionary = cv.aruco.Dictionary_get(cv.aruco.DICT_4X4_50)` 
 
 ![](./computer-vision/img/aruco_markers.png)
 
