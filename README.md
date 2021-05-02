@@ -104,7 +104,7 @@ To achieve this, we made use of projective geometry, in particular homography. A
 
 #### Homography
 
-Homography is an isomorphism, i.e. a transformation of projective space, that allows us to project from a surface to the other by preserving its map. To achive this we have use
+Homography is an isomorphism, i.e. a transformation of projective space, that allows us to project from a surface to the other by preserving its map. To achieve this we have to use
 
 ### Image Classification using MobileNetv2
 
